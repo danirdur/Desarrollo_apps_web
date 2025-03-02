@@ -1,3 +1,23 @@
+#SECTOR DE ELEMENTOS
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: green;
+}
+</style>
+</head>
+<body>
+ 
+<p>Todos los parrafos cambiaron por el estilo</p>
+<p id="para1">igual yo!</p>
+<p>y yo</p>
+ 
+</body>
+</html>
+
 
 
 
