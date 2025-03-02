@@ -72,3 +72,38 @@ echo "Mi carro es " . $coLOR . "<br>";
 
 #########
 
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<?php
+// Comentario ejemplo
+
+# Esto es otro ejemplo de comentario
+
+/* Eejemplo de
+comentario de varias lineas*/
+?>
+ 
+</body>
+</html>
+
+##########
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "Bienvenido!"; // Imprime un mensaje
+?>
+ 
+</body>
+</html>
+
+
+#########################
+
+
+
+
+
