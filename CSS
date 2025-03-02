@@ -18,6 +18,105 @@ p {
 </body>
 </html>
 
+#HOME
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgreen;
+}
+ 
+h1 {
+  color: white;
+  text-align: center;
+}
+ 
+p {
+  font-family: verdana;
+  font-size: 40px;
+}
+</style>
+</head>
+<body>
+ 
+<h1>Mi primer codigo de css</h1>
+<p>hola.</p>
+ 
+</body>
+</html>
+ 
+ 
+ 
+ 
+#INTRODUCTION
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+ 
+h1 {
+  color: black;
+  text-align: center;
+}
+ 
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+ 
+<h1>Mi primer ejemplo de CSS</h1>
+<p>hola.</p>
+ 
+</body>
+</html>
+
+
+#syntax
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: blue;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+ 
+<p>Hola mundo!</p>
+<p>estoy trabajando con css.</p>
+ 
+</body>
+</html>
+
+
+#SELECTORS
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+ 
+<h1>Hola mundo!</h1>
+<h2>Subtitulo!</h2>
+<p>Parrafo.</p>
+ 
+</body>
+</html>
 
 
 
