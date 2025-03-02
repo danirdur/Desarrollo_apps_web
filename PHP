@@ -40,3 +40,35 @@ echo "Hola mundo!";
 
 #################
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+ECHO "Hola mundo!<br>";
+echo "Hola mundo!<br>";
+EcHo "Hola mundo!<br>";
+?> 
+
+</body>
+</html>
+
+############
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$color = "rojo";
+echo "Mi patin es " . $color . "<br>";
+echo "Mi departamento es " . $COLOR . "<br>";
+echo "Mi carro es " . $coLOR . "<br>";
+?> 
+
+</body>
+</html>
+
+
+#########
+
