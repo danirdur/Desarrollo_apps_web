@@ -225,3 +225,105 @@ var_dump($myCar);
 
 </body>
 </html>
+
+#######
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+</head>
+
+<body>
+    <select>
+        <?php
+
+        for ($i=1; $i <= 10 ; $i++) {
+            echo '<option value="'.$i.'">'.$i.'</option>';
+        }
+
+        ?>
+    </select>
+</body>
+
+</html>
+
+#########
+
+<?php
+
+    echo 'Hecho con while <br/>';
+    $i = 1;
+    while($i<=10){
+        echo $i . ' ';
+        $i++;
+    }
+
+    echo '<br/>';
+    echo 'Hecho con for <br/>';
+    for($i = 1;$i<=10;$i++){
+        echo $i . ' ';
+    }
+
+?>
+
+
+
+
+###########
+<?php
+
+class Persona {
+
+    private $nombre;
+    private $apellidos;
+    private $edad;
+
+    function __construct($nombre, $apellidos, $edad)
+    {
+        $this->nombre = $nombre;
+        $this->apellidos = $apellidos;
+        $this->edad = $edad;
+    }
+
+    function __get($propiedad)
+    {
+        if(property_exists($this, $propiedad)){
+            return $this->$propiedad;
+        }
+    }
+
+    function __set($propiedad, $valor){
+        if(property_exists($this, $propiedad)){
+            $this->$propiedad = $valor;
+        }
+    }
+
+    function mayorEdad(){
+        return $this->edad >= 18;
+    }
+
+    function nombreCompleto(){
+        return $this->nombre . " " . $this->apellidos;
+    }
+
+}
+
+$persona = new Persona("Fernando", "Ureña Gomez", 29);
+
+if($persona->mayorEdad()){
+    echo $persona->nombreCompleto(). " es mayor de edad";
+}else{
+    echo $persona->nombreCompleto(). " no es mayor de edad";
+}
+
+echo $persona->nombr2;
+?>
+
+
+
+########
+
