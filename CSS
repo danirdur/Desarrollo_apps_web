@@ -1,4 +1,4 @@
-#SECTOR DE ELEMENTOS
+#######
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,8 +17,8 @@ p {
  
 </body>
 </html>
-
-#HOME
+ 
+#######
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +49,7 @@ p {
  
  
  
-#INTRODUCTION
+#######
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,8 +76,6 @@ p {
  
 </body>
 </html>
-
-
 #syntax
 <!DOCTYPE html>
 <html>
@@ -96,9 +94,7 @@ p {
  
 </body>
 </html>
-
-
-#SELECTORS
+########
 <!DOCTYPE html>
 <html>
 <head>
@@ -117,7 +113,3 @@ h1, h2, p {
  
 </body>
 </html>
-
-
-
-
